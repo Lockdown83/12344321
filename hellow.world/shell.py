@@ -14,7 +14,11 @@ def count_primes(current_num, count, target_count):
         print(f"The {target_count}th prime number is {current_num - 1}")
         return
     if is_prime(current_num):
+        print(f"Found prime: {current_num}")
         count += 1
     count_primes(current_num + 1, count, target_count)
 
 count_primes(2, 0, 40)
+#beta jdnnskjjsnbdbdbdbdbbbdbdb jddjsjjdjjdjdsnsndnsdnjdnnsndndn
+
+

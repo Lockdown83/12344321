@@ -1,5 +1,4 @@
-def group_by_parity(arr):
-    return {i % 2: [x for x in arr if x % 2 == i] for i in range(2)}
-
-print(group_by_parity([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]))
-
+# The following code will print "sprint bumblebee" and then calculate the sum of 5 and 9.
+print("sprint bumblebee")  # This line outputs the string "sprint bumblebee" to the console.
+result = 5 + 9  # This line calculates the sum of 5 and 9 and stores it in the variable 'result'.
+print(result)  # This line outputs the value of 'result' to the console.

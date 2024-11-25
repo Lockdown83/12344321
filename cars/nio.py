@@ -19,19 +19,4 @@ class Nio:
         range_per_charge (float): The range of the car on a full charge in kilometers.
         price (float): The price of the car in dollars.
         """
-        self.model = model
-        self.battery_capacity = battery_capacity
-        self.range_per_charge = range_per_charge
-        self.price = price
-
-    def display_info(self):
-        """Prints the information about the Nio car."""
-        print(f"Model: {self.model}")
-        print(f"Battery Capacity: {self.battery_capacity} kWh")
-        print(f"Range per Charge: {self.range_per_charge} km")
-        print(f"Price: ${self.price:.2f}")
-
-# Example usage:
-nio_ec6 = Nio("EC6", 100, 615, 68000)
-nio_ec6.display_info()
-print("This is a Nio car instance.")
+        

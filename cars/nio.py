@@ -34,3 +34,4 @@ class Nio:
 # Example usage:
 nio_ec6 = Nio("EC6", 100, 615, 68000)
 nio_ec6.display_info()
+print("This is a Nio car instance.")

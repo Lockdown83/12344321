@@ -49,3 +49,5 @@ class Nio:
             int: The total number of Nio cars.
             """
             return cls.car_count
+            print(f"Nio Car Created: {self.model}, Battery Capacity: {self.battery_capacity} kWh, Range: {self.range_per_charge} km, Price: ${self.price}")
+            print(f"Total Nio Cars Created: {Nio.car_count}")
